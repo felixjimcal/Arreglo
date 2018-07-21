@@ -7,10 +7,12 @@ import org.junit.Test;
 public class TestProgram {
 
 	@Test
-	public void test() {
-		int value = 20;
+	public void Give20OrBiggerPass() 
+	{
+		int value = 22;
 		boolean expected = true;
 		
+		assertEquals(expected, Program.Insert(20));
 		assertEquals(expected, Program.Insert(value));
 	}
 
