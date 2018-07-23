@@ -20,8 +20,8 @@ public class TestProgram {
 		int value = 22;
 		boolean expected = true;
 		
-		assertEquals(expected, pro.CheckValue(20));
-		assertEquals(expected, pro.CheckValue(value));
+		assertEquals(expected, pro.isBiggerOrEqualThan20(20));
+		assertEquals(expected, pro.isBiggerOrEqualThan20(value));
 	}
 	
 	@Test
@@ -30,7 +30,7 @@ public class TestProgram {
 		int value = 19;
 		boolean expected = false;
 		
-		assertEquals(expected, pro.CheckValue(value));
+		assertEquals(expected, pro.isBiggerOrEqualThan20(value));
 	}
 	
 	@Test

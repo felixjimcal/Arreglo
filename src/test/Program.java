@@ -1,13 +1,11 @@
 package test;
 
-import java.util.Vector;
-
 public class Program {
 	
 	private int current_value = 0;
 	private int[] nums = new int[5];
 	
-	boolean CheckValue(int number)
+	boolean isBiggerOrEqualThan20(int number)
 	{
 		boolean pass = false;
 		
