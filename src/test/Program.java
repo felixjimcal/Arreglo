@@ -27,7 +27,7 @@ public class Program {
 		current_value++;
 	}
 	
-	public int[] ShowList()
+	public int[] ReturnNumbersList()
 	{
 		return nums;
 	}

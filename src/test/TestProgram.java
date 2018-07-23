@@ -44,7 +44,7 @@ public class TestProgram {
 		pro.InsertValue(37);
 		pro.InsertValue(45);
 
-		assertArrayEquals(nums, pro.ShowList());
+		assertArrayEquals(nums, pro.ReturnNumbersList());
 	}
 	
 }
